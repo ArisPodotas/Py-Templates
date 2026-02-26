@@ -44,7 +44,7 @@ def liner() -> Namespace:
     _ = general.add_argument(
         "-o",
         "--output",
-        help = "Define the folder you want the output in, Will add ./ and / before and after",
+        help = "Define the folder you want the output in",
         default= source + 'output/',
         dest='output',
         type = str,
