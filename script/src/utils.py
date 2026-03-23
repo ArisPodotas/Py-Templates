@@ -1,3 +1,6 @@
+"""
+Defines small utilities for the module
+"""
 # pyright: basic
 from argparse import Namespace, ArgumentParser
 from os import makedirs
