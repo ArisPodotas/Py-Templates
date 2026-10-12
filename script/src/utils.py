@@ -26,8 +26,9 @@ def liner() -> Namespace:
         "-v",
         "--verbose",
         help = "Prints more while running",
+        action='store_true',
+        default = False,
         dest='verbose',
-        type = str,
     )
     _ = general.add_argument(
         "--version",
