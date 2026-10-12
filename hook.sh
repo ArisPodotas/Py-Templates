@@ -1,6 +1,6 @@
 pyplate () {
     function liner() {
-        echo "Usage: pyplate.sh [OPTIONS]"
+        echo "Usage: pyplate [OPTIONS]"
         echo "Options:"
         echo "  -h, --help     Display this help message"
         echo "  --version      Show the script version"

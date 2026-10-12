@@ -19,8 +19,8 @@ def liner() -> Namespace:
         description = '',
         epilog = 'Work in progress'
     )
-    py: str = abspath(dirname(__file__)) + '/'
-    source: str = abspath(dirname(dirname(__file__))) + '/'
+    py: str = abspath(dirname(__file__)) + '/' # Current file dir
+    source: str = abspath(dirname(dirname(__file__))) + '/' # Current file external parrent folder
     general = prs.add_argument_group('General')
     _ = general.add_argument(
         "-v",
